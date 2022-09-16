@@ -5,11 +5,18 @@ body {
 }
 
 h1 {
-  text-align: center;
+  padding-left: 3rem;
   background-color: rgb(252, 252, 255);
   padding: 30px;
   margin: auto;
   border-radius: 10px;
+}
+
+.right li {
+  list-style-type: none;
+  float: right;
+  margin: 10px;
+  padding-right: 10px;
 }
 
 button {
@@ -21,9 +28,27 @@ button {
   font-size: 16px;
   width: 160px;
   padding: 12px;
+  margin: 10px;
 }
 
 button:hover {
   cursor: pointer;
   opacity: 0.6;
+}
+
+.product-buy {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+
+.product-desc {
+  margin: 10px;
+}
+
+.product-image {
+  margin-top: 40px;
 }
