@@ -4,19 +4,28 @@ body {
   border: 0;
 }
 
-h1 {
-  padding-left: 3rem;
+.title-header {
+  padding-bottom: 100px;
   background-color: rgb(252, 252, 255);
-  padding: 30px;
-  margin: auto;
   border-radius: 10px;
 }
 
-.right li {
+h1 {
+  padding-left: 3rem;
+  padding: 30px;
+  margin: auto;
+}
+
+.left-side{
+  float: left;
+}
+
+.right-side li {
   list-style-type: none;
   float: right;
-  margin: 10px;
-  padding-right: 10px;
+  margin: 30px;
+  padding-right: 20px;
+  font-size: 1.5rem;
 }
 
 button {
@@ -36,19 +45,29 @@ button:hover {
   opacity: 0.6;
 }
 
-.product-buy {
+.product-line {
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid;
-  padding-bottom: 20px;
-  margin: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px 2em;
 }
 
 .product-desc {
-  margin: 10px;
+  padding-left: 1rem;
+}
+
+.price-tag {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .product-image {
-  margin-top: 40px;
+  padding-top: 2rem;
+}
+
+.product-buy {
+  border: 1px solid;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  margin: 7px;
+  background-color: rgb(252, 252, 255);
 }
